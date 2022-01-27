@@ -7,6 +7,7 @@ import com.example.moviemvvm.databinding.ActivitySingleBinding
 
 class SingleActivity : AppCompatActivity() {
     lateinit var binding: ActivitySingleBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySingleBinding.inflate(layoutInflater)
